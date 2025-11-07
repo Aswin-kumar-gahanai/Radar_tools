@@ -1,12 +1,13 @@
 # Radar Data Recording & Replay: Expanded & Explained
-# for Ubuntu Users (Robotics & Sensor Integration Focus)
+# for Ubuntu Users
 
-# Step 1: Install Python Serial Library (PySerial)
-# PySerial allows Python to communicate over serial ports with radar modules or microcontrollers.
-pip3 install pyserial
+## Step 1: Install Python Serial Library (PySerial)
+  # PySerial allows Python to communicate over serial ports with radar modules or microcontrollers.
+      pip3 install pyserial
 
-# Step 2: Save your 'radar_io.py' script in your working directory.
-# This script includes functions to record raw radar data from a real serial port or replay data via a virtual PTY port.
+
+## Step 2: Save your 'radar_recorder_replay.py' script in your working directory.
+  # This script includes functions to record raw radar data from a real serial port or replay data via a virtual PTY port.
 
 # 3. Recording Radar Data
 # Use this command during test or deployment to capture live radar data.
